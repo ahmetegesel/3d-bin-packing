@@ -4,8 +4,5 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error']
   },
-  parserOptions: {
-    parser: 'babel-eslint',
-    sourceType: 'module'
-  }
+  parser: 'babel-eslint'
 };
