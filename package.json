@@ -4,11 +4,14 @@
   "description": "3D Packing Problem solving with First-Fit Decreasing algorithm",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "babel-node index.js",
     "lint": "eslint ./ -c .eslintrc.js --ext js --fix",
     "prettier": "prettier --config ./.prettierrc.js --ignore-path ./.prettierignore --write \"./**/*.{js,json}\""
   },
   "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
     "@types/node": "^13.9.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
