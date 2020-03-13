@@ -1,0 +1,24 @@
+{
+  "name": "3d-bin-packing",
+  "version": "1.0.0",
+  "description": "3D Packing Problem solving with First-Fit Decreasing algorithm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetegesel/3d-bin-packing.git"
+  },
+  "keywords": [
+    "3dbinpacking",
+    "first-fit-decreasing",
+    "FFD"
+  ],
+  "author": "Ahmet Egesel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmetegesel/3d-bin-packing/issues"
+  },
+  "homepage": "https://github.com/ahmetegesel/3d-bin-packing#readme"
+}
