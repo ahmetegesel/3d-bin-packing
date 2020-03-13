@@ -4,7 +4,20 @@
   "description": "3D Packing Problem solving with First-Fit Decreasing algorithm",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint ./ -c .eslintrc.js --ext js --fix",
+    "prettier": "prettier --config ./.prettierrc.js --ignore-path ./.prettierignore --write \"./**/*.{js,json}\""
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
