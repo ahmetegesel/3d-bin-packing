@@ -50,15 +50,16 @@ start placing next sample, since we must go backwards, it reverses the bin order
 - Since there is no rotation functionality in placement approach, you will be losing spaces where you can fit more
 packages by rotating them accordingly.
 - Before placing packages, FFD sorts the packages from largest to smallest, which means previous package will be
-either larger that current one or same size with the current one. When starting a new column in a layer, if the package
-you will place your current package next to is larger than current package and you already placed some of packages with
-same size of your current package, then it will create a gap between two columns in the break point. 
+either larger than current one or same size with the current one. When starting a new column in a layer, if the package that
+you will place your current package next to is larger than current package and you already placed some of packages in the current
+column with same size of your current package, then it will create a gap between two columns in the break point. 
 - Similar to having gap between columns, there is also gap created in between layers due to exact same problem, which 
 is the chance to place your package onto a larger package and there are packages in the same column in the lower layer
 which are smaller than the package your are placing your current package onto.
 
 ### Roadmap
 
+- To visualize the Algorithm and Approach in README.md file.
 - To get the information about samples from user input.
 - To turn functions into pure functions and immutable for implementing Functional Programming approach.
 - Instead of having them in nested `if`s, to put the functionality of checking room in the bin in separate small and pure
